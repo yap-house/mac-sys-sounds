@@ -6,10 +6,11 @@
   "license": "MIT",
   "main": "dist/MacSysSounds.js",
   "types": "dist/MacSysSounds.d.ts",
+  "files": [ "dist" ],
   "packageManager": "yarn@4.5.1",
   "type": "module",
   "scripts": {
-    "build": "tsc --project tsconfig.build.json",
+    "build": "rm -rf dist/ && tsc --project tsconfig.build.json",
     "lint:fix": "eslint --fix",
     "fmt:fix": "prettier --write \"**/*.{ts, tsx, js, jsx, cjs, mjs, md, json, lintstagedrc}\"",
     "test": "jest",
