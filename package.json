@@ -1,6 +1,6 @@
 {
   "name": "mac-sys-sounds",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Yap@house",
   "description": "Play macOS system sounds on the CLI.",
   "keywords": ["macos", "sound", "cli"],
