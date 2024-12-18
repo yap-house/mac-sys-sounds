@@ -14,7 +14,7 @@ npm install mac-sys-sounds
 ``` javascript
 import MacSysSounds from "mac-sys-sounds";
 
-const player = MacSysSounds();
+const player = new MacSysSounds();
 await player.tink(); // Play Tink.aiff
 
 // If you want to catch the error

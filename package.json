@@ -1,8 +1,10 @@
 {
   "name": "mac-sys-sounds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Yap@house",
   "description": "Play macOS system sounds on the CLI.",
+  "keywords": ["macos", "sound", "cli"],
+  "homepage": "https://github.com/yap-house/mac-sys-sounds#readme",
   "license": "MIT",
   "main": "dist/MacSysSounds.js",
   "types": "dist/MacSysSounds.d.ts",
@@ -16,7 +18,9 @@
     "lint:fix": "eslint --fix",
     "fmt:fix": "prettier --write \"**/*.{ts, tsx, js, jsx, cjs, mjs, md, json, lintstagedrc}\"",
     "test": "jest",
-    "prepare": "husky"
+    "doc": "typedoc",
+    "prepare": "husky",
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
@@ -36,7 +40,7 @@
     "prettier": "^3.4.2",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
-    "typedoc": "^0.27.3",
+    "typedoc": "^0.27.5",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.17.0"
   }
