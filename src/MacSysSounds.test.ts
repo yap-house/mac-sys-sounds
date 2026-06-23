@@ -1,4 +1,4 @@
-import MacSysSounds from './MacSysSounds';
+import MacSysSounds from './MacSysSounds.js';
 const player = new MacSysSounds();
 
 describe('File path string generation test', () => {
