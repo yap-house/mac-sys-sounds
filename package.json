@@ -22,7 +22,7 @@
     "fmt:fix": "prettier --write \"**/*.{ts, tsx, js, jsx, cjs, mjs, md, json, lintstagedrc}\"",
     "test": "jest",
     "doc": "typedoc",
-    "prepare": "husky",
+    "prepare": "husky install",
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
